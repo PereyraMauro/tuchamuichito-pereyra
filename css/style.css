@@ -34,17 +34,9 @@
 
 /* BODY */
 
-.img-fondo {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -100;
-}
-
-.img-fondo img {
-    width: 100%;
+.body {
+    background-image: url(https://images.pexels.com/photos/10831659/pexels-photo-10831659.jpeg);
+    background-size: cover;
 }
 
 /* BODY GALERIA. */
@@ -68,6 +60,7 @@
 
 .div-table td {
     color: white;
+    width: 300px;
 }
 
 
@@ -100,7 +93,6 @@
     align-items: center;
     height: 210px;
     justify-content: center;
-    padding: 300px 0px 0px 0px;
 }
 
 .footer-faq a {
@@ -113,7 +105,6 @@
     align-items: center;
     height: 210px;
     justify-content: center;
-    padding: 30px 0px 0px 0px;
 }
 
 .footer-galeria a {
@@ -126,7 +117,6 @@
     align-items: center;
     height: 210px;
     justify-content: center;
-    padding: 300px 0px 0px 0px;
 }
 
 .footer-contacto a {
