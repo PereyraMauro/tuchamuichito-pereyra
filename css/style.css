@@ -11,6 +11,9 @@
     color: white;
 }
 
+.dropdown-menu.show {
+    display: inline-block;
+}
 
 .desplegable {
     background-color: transparent;
